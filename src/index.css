@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@theme { --color-ink:#0e1218; --color-panel:#171c25; --color-line:#2a3140; --color-amber:#f2b134; --font-display:"Bricolage Grotesque",system-ui,sans-serif; }
+body{background:var(--color-ink);color:#e8ebf0;font-family:system-ui,sans-serif}
+.sk{background:linear-gradient(90deg,#171c25,#222a38,#171c25);background-size:200% 100%;animation:sk 1.4s infinite}
+@keyframes sk{to{background-position:-200% 0}}
+@media (prefers-reduced-motion:reduce){.sk{animation:none}}
+:focus-visible{outline:2px solid var(--color-amber);outline-offset:2px}
